@@ -38,5 +38,6 @@ def add_s(plural)
       return
     else 
       word + "s"
-  end  
+  end 
+end
 end  
