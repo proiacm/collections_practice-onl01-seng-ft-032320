@@ -20,8 +20,8 @@ end
 
 def kesha_maker(money)
 cash_array = []  
-  money.each do
-    
+  money.each do |word|
+    word[2] = "$"
   end 
 
 end  
