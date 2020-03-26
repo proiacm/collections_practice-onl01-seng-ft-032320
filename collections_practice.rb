@@ -1,2 +1,2 @@
-sort_array_asc(up)
-up.sort { |x, y| x <=> y}
+sort_array_asc(num)
+num.sort { |x, y| x <=> y}
