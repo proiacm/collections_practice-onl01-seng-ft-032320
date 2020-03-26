@@ -33,11 +33,5 @@ def sum_array(num)
 end  
 
 def add_s(plural)
-  plural.each do |word|
-    if word == "feet"
-      
-    else 
-      word + "s"
-  end
-end
+  plural.each_with_index.collect{|element, index| }
 end  
