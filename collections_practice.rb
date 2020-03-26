@@ -5,3 +5,7 @@ end
 def sort_array_desc(down)
   down.sort.reverse { |x, y| x <=> y}
 end  
+
+def sort_array_char_count(num)
+  num.length.sort { |x, y| x <=> y}
+end  
