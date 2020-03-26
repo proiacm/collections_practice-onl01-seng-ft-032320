@@ -29,7 +29,7 @@ def find_a(letter)
 end  
 
 def sum_array(num)
-  num.inject(0){|sum,x| sum + x }
+  num.inject(0){|int,x| int + x }
 end  
 
 def add_s()
