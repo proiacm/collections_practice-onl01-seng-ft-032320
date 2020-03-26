@@ -40,4 +40,5 @@ def add_s(plural)
       word + "s"
   end 
 end
+word
 end  
