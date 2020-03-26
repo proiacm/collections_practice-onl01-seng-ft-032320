@@ -17,3 +17,13 @@ end
 def reverse_array(rev)
   rev.reverse
 end  
+
+def kesha_maker(money)
+cash_array = []  
+  money.each do
+    
+  end 
+
+end  
+
+
