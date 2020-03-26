@@ -33,5 +33,11 @@ def sum_array(num)
 end  
 
 def add_s(plural)
-  plural.each_with_index.collect{|element, index| "#{element} #{index +s}"}
+  plural.each_with_index.collect do |element, index| 
+    if index != 1
+      element + "s"
+    else
+      return
+    end  
+  end    
 end  
