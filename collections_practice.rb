@@ -35,10 +35,9 @@ end
 def add_s(plural)
   plural.each do |word|
     if word == "feet"
-      return
+      
     else 
       word + "s"
-  end 
+  end
 end
-word
 end  
