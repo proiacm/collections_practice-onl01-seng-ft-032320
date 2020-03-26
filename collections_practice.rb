@@ -37,7 +37,7 @@ def add_s(plural)
     if index != 1
       element + "s"
     else
-      next
+      element
     end  
   end    
 end  
