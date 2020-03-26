@@ -9,3 +9,7 @@ end
 def sort_array_char_count(num)
   num.sort {|x, y| x.length - y.length}
 end  
+
+def swap_elements(dif)
+  
+end  
