@@ -28,6 +28,6 @@ def find_a(letter)
   letter.select {|let| let.start_with?"a"}
 end  
 
-def sum_array()
-  
+def sum_array(num)
+  num.
 end  
