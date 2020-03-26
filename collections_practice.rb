@@ -19,11 +19,9 @@ def reverse_array(rev)
 end  
 
 def kesha_maker(money)
-cash_array = []  
   money.each do |word|
     word[2] = "$"
   end 
-
 end  
 
 
