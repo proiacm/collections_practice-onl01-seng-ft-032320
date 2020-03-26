@@ -13,3 +13,7 @@ end
 def swap_elements(dif)
   dif[1], dif[2] = dif[0], dif[2], dif[1]
 end 
+
+def reverse_array(rev)
+  rev.reverse
+end  
