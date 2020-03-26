@@ -32,6 +32,6 @@ def sum_array(num)
   num.inject(0){|int,x| int + x }
 end  
 
-def add_s()
-  
+def add_s(plural)
+  plural.each_with_index.collect {|element, index| element, index[3] + "s"}
 end  
