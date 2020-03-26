@@ -11,5 +11,5 @@ def sort_array_char_count(num)
 end  
 
 def swap_elements(dif)
-  
+  swap_elements
 end  
